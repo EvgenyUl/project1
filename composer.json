@@ -1,4 +1,19 @@
 {
-	"name": "evgenyul/project1",
-	"description": "Description of project1",
+    "name": "evgenyul/project1",
+    "description": "Description of project1",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Evgenyul\\Project1\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Eugene Ul",
+            "email": "evgenyulchiev@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
 }
