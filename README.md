@@ -1,1 +1,1 @@
-info about this project
+This is the test project for learning git.
