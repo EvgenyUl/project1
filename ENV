@@ -1,1 +1,2 @@
+define("HOST", 'localhost');
 define("DBNAME", 'name');
