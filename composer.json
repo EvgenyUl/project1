@@ -1,6 +1,4 @@
 {   
     "name": "evgenyul/project1",
-    "require": {
-        "monolog/monolog": "^2.4"
-    }
+    "description": "Some description of this package"
 }
