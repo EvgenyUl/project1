@@ -1,4 +1,6 @@
 {   
     "name": "evgenyul/project1",
-    "description": "Some description of this package"
+    "description": "Some description of this package",
+    "license": "MIT",
+    "version": "1.0"
 }
