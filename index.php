@@ -5,3 +5,5 @@ ini_set('display_errors', 1);
 phpversion();
 
 echo "It\'s ok";
+
+echo "string";
