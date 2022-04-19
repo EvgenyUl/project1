@@ -1,3 +1,3 @@
 <?php   
 
-jfhbj
+define("DB", "test");
