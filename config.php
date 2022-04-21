@@ -6,3 +6,4 @@ define("PASS", "");
 define("USER", "root");
 
 define("URI", "localhost");
+define("name", "value");
