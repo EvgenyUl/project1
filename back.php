@@ -14,7 +14,7 @@ class ClassName extends AnotherClass
 	
 	function __construct()
 	{
-		
+		echo __CLASS__;
 
 	}
 }
