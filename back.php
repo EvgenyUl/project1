@@ -24,4 +24,9 @@ class ClassName extends AnotherClass
 	{
 		return $this->array[$key];
 	}
+
+	public function set($key, $value)
+	{
+		return $array[$key] = $value;
+	}
 }
