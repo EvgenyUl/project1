@@ -10,4 +10,9 @@ class Application
 	{
 		
 	}
+
+	public function get()
+	{
+		
+	}
 }
