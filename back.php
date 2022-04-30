@@ -12,7 +12,7 @@ class ClassName extends AnotherClass
 
 	function __construct()
 	{
-		echo __METHOD__;
+		echo __METHOD__ . __CLASS__;
 
 	}
 
