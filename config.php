@@ -10,3 +10,4 @@ define("name", "value");
 define('name', 'value');
 
 define('name', 'value');
+define('name', 'value');
