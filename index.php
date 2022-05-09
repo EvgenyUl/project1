@@ -5,3 +5,4 @@ ini_set('display_errors', 1);
 
 $log = ini_get('log_errors');
 $edisplay = ini_get('errors_display');
+

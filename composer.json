@@ -3,5 +3,8 @@
     "description": "Some description of this package",
     "license": "MIT",
     "version": "1.0",
-    "keywords":["project","handle","free"]
+    "keywords":["project","handle","free"], 
+    "require":{
+        "composer": "2.3.*"
+    }
 }
