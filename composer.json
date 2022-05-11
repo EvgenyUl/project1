@@ -3,6 +3,6 @@
 		"monolog/monolog": "2.0.*"
 	},
 	"autoload":{
-		"psr-4": {"Dudom\\": ""}
+		"psr-4": {"Dudom\\": ["","map/one/"]}
 	}
 }
