@@ -3,14 +3,14 @@
 /**
  * 
  */
-namespace Dudom;
+namespace Dudom\Foo;
 
 class Foo 
 {
 	
 	function __construct()
 	{
-		$this->getClass();
+		echo $this->getClass();
 	}
 
 	public function getClass():string

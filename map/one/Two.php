@@ -1,11 +1,9 @@
 <?php 
 
-
 /**
  * 
  */
-
-class App
+class Two
 {
 	
 	function __construct()
