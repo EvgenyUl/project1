@@ -3,9 +3,10 @@
 		"monolog/monolog": "2.0.*"
 	},
 	"autoload":{
-		"psr-0":{},
-		"psr-4":{"Dudom\\Foo\\": ""},
-		"classmap":["map/one/"],
-		"files":["src/function.php"]
+		"files":[
+			"src/function.php",
+			"map/one/App.php",
+			"Foo.php"
+		]
 	}
 }
