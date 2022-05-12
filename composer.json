@@ -3,10 +3,9 @@
 		"monolog/monolog": "2.0.*"
 	},
 	"autoload":{
-		"files":[
-			"src/function.php",
-			"map/one/App.php",
-			"Foo.php"
+		"classmap":[
+			"map/one/",
+			"src/"
 		]
 	}
 }
