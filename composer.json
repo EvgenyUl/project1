@@ -3,9 +3,8 @@
 		"monolog/monolog": "2.0.*"
 	},
 	"autoload":{
-		"classmap":[
-			"map/one/",
-			"src/"
-		]
+		"psr-0":{
+			"Dudom\\Foo\\" : "src/"
+		}
 	}
 }
