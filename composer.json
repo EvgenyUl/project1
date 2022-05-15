@@ -1,7 +1,6 @@
 {
-    "name": "dudom/ehandler",
+    "name": "evgenyul/test",
     "description": "This is the description of ehandler package",
-    "version": "1.0.0-dev",
     "type": "library",
     "keywords":["error-handler", "error", "handler", "error handler"],
     "homepage": "http://dudom.ru",
@@ -13,6 +12,8 @@
             "name": "Evgeny",
             "email": "evgenyulchiev@gmail.com"
         }
-    ]
-
+    ],
+    "require": {
+        "dudom/ehandler": "^1.0"
+    }
 }

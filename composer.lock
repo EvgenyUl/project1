@@ -1,0 +1,45 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "77da09c18de6c537eb806ba796697964",
+    "packages": [
+        {
+            "name": "dudom/ehandler",
+            "version": "v1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dudom/ehandler.git",
+                "reference": "c528f4859f7fd23d712aacd3de0c4ca7b7e3c280"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dudom/ehandler/zipball/c528f4859f7fd23d712aacd3de0c4ca7b7e3c280",
+                "reference": "c528f4859f7fd23d712aacd3de0c4ca7b7e3c280",
+                "shasum": ""
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Managing all errors",
+            "support": {
+                "issues": "https://github.com/dudom/ehandler/issues",
+                "source": "https://github.com/dudom/ehandler/tree/v1.0"
+            },
+            "time": "2022-04-08T07:09:37+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}
