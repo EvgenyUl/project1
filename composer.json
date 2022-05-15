@@ -14,7 +14,8 @@
         }
     ],
     "require": {
-        "dudom/ehandler": "^1.0"
+        "evgenyul/hello-world": "dev-main",
+        "dudom/ehandler": "dev-main"
     },
     "minimum-stability": "dev"
 }

@@ -4,39 +4,226 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "77da09c18de6c537eb806ba796697964",
+    "content-hash": "2a3978c31dbd9e6e52d383032dd7a5b6",
     "packages": [
         {
             "name": "dudom/ehandler",
-            "version": "v1.0",
+            "version": "dev-main",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dudom/ehandler.git",
-                "reference": "c528f4859f7fd23d712aacd3de0c4ca7b7e3c280"
+                "reference": "7646a99816e64a61d2b6d669bcfac4b58e416b46"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dudom/ehandler/zipball/c528f4859f7fd23d712aacd3de0c4ca7b7e3c280",
-                "reference": "c528f4859f7fd23d712aacd3de0c4ca7b7e3c280",
+                "url": "https://api.github.com/repos/dudom/ehandler/zipball/7646a99816e64a61d2b6d669bcfac4b58e416b46",
+                "reference": "7646a99816e64a61d2b6d669bcfac4b58e416b46",
                 "shasum": ""
             },
+            "default-branch": true,
             "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Dudom\\Ehandler\\": "src/"
+                }
+            },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
-            "description": "Managing all errors",
+            "description": "Manage all errors",
+            "homepage": "http://dudom.ru",
+            "keywords": [
+                "error",
+                "handler",
+                "log"
+            ],
             "support": {
                 "issues": "https://github.com/dudom/ehandler/issues",
-                "source": "https://github.com/dudom/ehandler/tree/v1.0"
+                "source": "https://github.com/dudom/ehandler/tree/main"
             },
-            "time": "2022-04-08T07:09:37+00:00"
+            "time": "2022-05-14T18:22:11+00:00"
+        },
+        {
+            "name": "evgenyul/hello-world",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/evgenyul/hello-world.git",
+                "reference": "8ae139ec8ed8f2159c125a7f51d765315fe38a84"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/evgenyul/hello-world/zipball/8ae139ec8ed8f2159c125a7f51d765315fe38a84",
+                "reference": "8ae139ec8ed8f2159c125a7f51d765315fe38a84",
+                "shasum": ""
+            },
+            "require": {
+                "monolog/monolog": "^1.0"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Evgeny\\Hello\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "This is test package",
+            "homepage": "https://google.com",
+            "support": {
+                "issues": "https://github.com/evgenyul/hello-world/issues",
+                "source": "https://github.com/evgenyul/hello-world/tree/main"
+            },
+            "time": "2022-05-15T20:41:59+00:00"
+        },
+        {
+            "name": "monolog/monolog",
+            "version": "1.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Seldaek/monolog.git",
+                "reference": "52ebd235c1f7e0d5e1b16464b695a28335f8e44a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/52ebd235c1f7e0d5e1b16464b695a28335f8e44a",
+                "reference": "52ebd235c1f7e0d5e1b16464b695a28335f8e44a",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0",
+                "psr/log": "~1.0"
+            },
+            "provide": {
+                "psr/log-implementation": "1.0.0"
+            },
+            "require-dev": {
+                "aws/aws-sdk-php": "^2.4.9 || ^3.0",
+                "doctrine/couchdb": "~1.0@dev",
+                "graylog2/gelf-php": "~1.0",
+                "php-amqplib/php-amqplib": "~2.4",
+                "php-console/php-console": "^3.1.3",
+                "phpstan/phpstan": "^0.12.59",
+                "phpunit/phpunit": "~4.5",
+                "ruflin/elastica": ">=0.90 <3.0",
+                "sentry/sentry": "^0.13",
+                "swiftmailer/swiftmailer": "^5.3|^6.0"
+            },
+            "suggest": {
+                "aws/aws-sdk-php": "Allow sending log messages to AWS services like DynamoDB",
+                "doctrine/couchdb": "Allow sending log messages to a CouchDB server",
+                "ext-amqp": "Allow sending log messages to an AMQP server (1.0+ required)",
+                "ext-mongo": "Allow sending log messages to a MongoDB server",
+                "graylog2/gelf-php": "Allow sending log messages to a GrayLog2 server",
+                "mongodb/mongodb": "Allow sending log messages to a MongoDB server via PHP Driver",
+                "php-amqplib/php-amqplib": "Allow sending log messages to an AMQP server using php-amqplib",
+                "php-console/php-console": "Allow sending log messages to Google Chrome",
+                "rollbar/rollbar": "Allow sending log messages to Rollbar",
+                "ruflin/elastica": "Allow sending log messages to an Elastic Search server",
+                "sentry/sentry": "Allow sending log messages to a Sentry server"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Monolog\\": "src/Monolog"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jordi Boggiano",
+                    "email": "j.boggiano@seld.be",
+                    "homepage": "http://seld.be"
+                }
+            ],
+            "description": "Sends your logs to files, sockets, inboxes, databases and various web services",
+            "homepage": "http://github.com/Seldaek/monolog",
+            "keywords": [
+                "log",
+                "logging",
+                "psr-3"
+            ],
+            "support": {
+                "issues": "https://github.com/Seldaek/monolog/issues",
+                "source": "https://github.com/Seldaek/monolog/tree/1.27.0"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/Seldaek",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/monolog/monolog",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2022-03-13T20:29:46+00:00"
+        },
+        {
+            "name": "psr/log",
+            "version": "1.1.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/log.git",
+                "reference": "d49695b909c3b7628b6289db5479a1c204601f11"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/d49695b909c3b7628b6289db5479a1c204601f11",
+                "reference": "d49695b909c3b7628b6289db5479a1c204601f11",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Log\\": "Psr/Log/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "https://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for logging libraries",
+            "homepage": "https://github.com/php-fig/log",
+            "keywords": [
+                "log",
+                "psr",
+                "psr-3"
+            ],
+            "support": {
+                "source": "https://github.com/php-fig/log/tree/1.1.4"
+            },
+            "time": "2021-05-03T11:20:27+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
-    "minimum-stability": "stable",
-    "stability-flags": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "evgenyul/hello-world": 20,
+        "dudom/ehandler": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
